@@ -1,7 +1,7 @@
 
 /// <reference types="cypress" />
 
-import { checkPageTitleVisible, clickPageText, EMAIL, MESSAGE, NAME, visitAndAssertHomePage } from ".";
+import { checkPageTitleVisible, clickPageText, EMAIL, MESSAGE, NAME, CONTACT, visitAndAssertHomePage } from ".";
 
 const linkTitle : string = 'SEND SOME FUNNY MEMES'
 const requiredFieldIds : string[] = [EMAIL, MESSAGE] // I assumed that at least an email and message is needed by the contact form i.e users can have some anonymity by not entering name
@@ -14,7 +14,7 @@ describe('As a user I should be able to use the form', () => {
         clickPageText(linkTitle)
         checkPageTitleVisible(linkTitle)
         checkAllFieldsEmpty() // Check that all fields are empty upon displaying the contact page
-        cy.get('#contact').find('a').should('be.visible') // Assert that social media links are visible
+        cy.get(CONTACT).find('a').should('be.visible') // Assert that social media links are visible
     })
 
     it('fill all fields and submit the form', () => {
