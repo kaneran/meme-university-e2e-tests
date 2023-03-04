@@ -1,0 +1,13 @@
+{
+  "homePage":{
+    "header": "The University of Memes",
+    "subText": "Memes isn't just an image, it's a work of art!",
+    "footerUrl": "https://github.com/kaneran"
+  },
+  "kermitPage":{
+    "text": "Smile and always grateful to be alive!"
+  },
+  "contactPage":{
+    "successText": "Thanks for sharing the meme!"
+  }
+}

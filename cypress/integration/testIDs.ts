@@ -1,0 +1,7 @@
+export const GEM_LOGO = "GEM_LOGO"
+export const ARTICLE_CLOSE_INTRO = "ARTICLE_CLOSE_INTRO"
+export const FOOTER = "#footer"
+export const KERMIT_ARTICLE = "#intro"
+export const MESSAGE = "#message"
+export const NAME = "#name"
+export const EMAIL = "#email"
